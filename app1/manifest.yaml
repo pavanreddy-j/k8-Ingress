@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: pavanreddy143//app1:1.0.0
+        image: pavanreddy143/app1:1.0.0
         ports:
         - containerPort: 80
 ---
@@ -46,7 +46,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "app1.daws82s.online"
+  - host: "pavanreddy.store"
     http:
       paths:
       - pathType: Prefix
